@@ -15,8 +15,8 @@ button1.pack()
 button2.pack(side=RIGHT)
 button3.pack(side=LEFT)
 help(Button)
-# the_label = Label(root, text="Hello World")
-# the_label.pack()
+the_label = Label(root, text="Hello World", bg='blue', fg='yellow')
+the_label.pack(side=TOP, fill=X)
 
 
 root.mainloop()
